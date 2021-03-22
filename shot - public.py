@@ -38,11 +38,10 @@ postData = {
 while True:
 
 
-    #try:
-    response = requests.post(url, headers=headers, timeout=60, json=postData)
-    print(response.text)
-    #except:
-        #print("error with response")
+    try:
+        response = requests.post(url, headers=headers, timeout=60, json=postData)
+    except:
+        print("error with response")
 
         
     try:
