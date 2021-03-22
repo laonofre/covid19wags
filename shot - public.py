@@ -28,7 +28,7 @@ url = 'https://www.walgreens.com/hcschedulersvc/svc/v1/immunizationLocations/ava
 
 postData = {
     "serviceId":"99",
-    "position":{"latitude":xx.xxxxxxx,"longitude":-xx.xxxxx},
+    "position":{"latitude":34.058506,"longitude":-84.521874},
     "appointmentAvailability":{"startDateTime":str(tomDate)},
     "radius":25
     }
